@@ -5,13 +5,7 @@
     <loc>https://goliot.github.io/teamWebPage/authors/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/blog/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/categories/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/blog/2021/08/01/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/categories-post/</loc>
@@ -71,9 +65,6 @@
     <loc>https://goliot.github.io/teamWebPage/authors/jane-doe/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
@@ -89,9 +80,6 @@
     <loc>https://goliot.github.io/teamWebPage/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/blog/2015/09/17/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
@@ -104,9 +92,6 @@
     <loc>https://goliot.github.io/teamWebPage/web/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/blog/2015/08/03/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
@@ -118,9 +103,6 @@
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/web/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
@@ -142,8 +124,6 @@
     <loc>https://goliot.github.io/teamWebPage/faq/</loc>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/tags/ipsum/</loc>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/blog/1/01/01/migrate-from-jekyll/</loc>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/migrate-from-jekyll/</loc>
   </url><url>
