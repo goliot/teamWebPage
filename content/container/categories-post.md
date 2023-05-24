@@ -1,19 +1,40 @@
 +++
-title = "Categories Post"
-date = "2021-08-01T21:29:20+02:00"
+title = "컨테이너란 무엇인가?"
+date = "2023-05-23T21:29:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
-categories = ["programming","lorem","pseudo"]
-banner = "img/banners/banner-4.jpg"
-authors = ["John Doe"]
+#categories = ["programming","lorem","pseudo"]
+banner = "img/banners/container.jpg"
+
 +++
 
-I'm a post with multiple categories in the frontmatter:
+## 컨테이너
 
-    categories = ["programming","lorem","pseudo"]
+컨테이너는 한 컴퓨팅 환경에서 다른 컴퓨팅 환경으로 빠르고 안정적으로 애플리케이션을 실행할 수 있도록 코드와 모든 종속성을 패키지화하는 소프트웨어의 표준 단위입니다.
 
+• OS 커널을 여러 개의 격리된 공간으로 격리(Isolation)하여 독립적인 여러 개의 시스템처럼 사용하는 가상화
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.
+• 호스트 OS의 커널을 공유하며 OS를 새로 설치하지 않음
 
-Morbi varius ex vel justo dictum placerat. Sed ac arcu pretium, varius elit eget, gravida purus. Fusce sit amet massa mollis eros tincidunt sollicitudin. Suspendisse iaculis cursus mauris ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas elit ligula, molestie quis magna eu, semper posuere lorem. Mauris a justo pharetra, congue ex eget, tincidunt massa. Maecenas sit amet neque lorem.
+• 커널을 공유하는 방식이기 때문에 실행 속도가 빠르고, 성능 상의 손실이 거의 없음
 
-Curabitur at elementum quam. Curabitur tristique elit non sapien aliquam vulputate. Vivamus in odio tincidunt, tempor sem quis, tincidunt lacus. Mauris pulvinar nunc sed tempus dictum. Nam vel arcu quis mi fermentum ullamcorper non ac lacus. Donec aliquet vitae ante at imperdiet. Aenean scelerisque venenatis urna, eget elementum risus convallis ac. Nullam gravida arcu lacus, non consectetur augue pretium non. Duis dignissim eros id urna pretium congue. Nullam eu magna in sem sollicitudin tempor. Pellentesque vel convallis ligula. Quisque semper, turpis a rhoncus efficitur, magna nibh iaculis elit, eget tempor dolor eros ut mi. Maecenas eu placerat lacus. Praesent congue pretium nulla, sed suscipit metus rutrum vel.
+• 사용자에게는 가상 머신처럼 보임
+
+• 다른 OS를 사용할 수 없음
+
+## Docker
+
+컨테이너 중에 잘 알려져 있는 컨테이너는 Docker 입니다.
+
+Docker 컨테이너 이미지는 코드, 런타임, 시스템 도구, 시스템 라이브러리 및 설정 등 응용 프로그램을 실행하는 데 필요한 모든 것을 포함하는 경량의 독립 실행형 소프트웨어 패키지입니다.
+
+컨테이너 이미지는 런타임에 컨테이너가 되고, 도커 컨테이너의 경우 도커 엔진에서 실행될 때 이미지가 컨테이너가 됩니다. Linux 및 Windows 기반 애플리케이션 모두에서 사용할 수 있는 컨테이너형 소프트웨어는 인프라에 관계없이 항상 동일하게 실행됩니다. 컨테이너는 소프트웨어를 환경으로부터 격리하고 개발과 스테이징의 차이에도 불구하고 균일하게 작동합니다.
+
+***
+
+Docker Engine에서 실행되는 Docker 컨테이너:
+
+1. 표준: Docker는 컨테이너에 대한 업계 표준을 만들어 어디서나 휴대할 수 있도록 했습니다.
+
+2. 경량: 컨테이너는 기계의 OS 시스템 커널을 공유하므로 애플리케이션당 OS가 필요하지 않으므로 서버 효율성을 높이고 서버 및 라이센스 비용을 절감합니다.
+
+3. 보안: 애플리케이션이 컨테이너에서 더 안전하며 Docker는 업계에서 가장 강력한 기본 격리 기능을 제공합니다.

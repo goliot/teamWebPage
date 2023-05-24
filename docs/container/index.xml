@@ -6,65 +6,35 @@
     <description>Recent content in Container on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://goliot.github.io/teamWebPage/container/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://goliot.github.io/teamWebPage/container/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Categories Post</title>
+      <title>컨테이너란 무엇인가?</title>
       <link>https://goliot.github.io/teamWebPage/container/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <pubDate>Tue, 23 May 2023 21:29:20 +0200</pubDate>
       
       <guid>https://goliot.github.io/teamWebPage/container/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
+      <description>컨테이너 컨테이너는 한 컴퓨팅 환경에서 다른 컴퓨팅 환경으로 빠르고 안정적으로 애플리케이션을 실행할 수 있도록 코드와 모든 종속성을 패키지화하는 소프트웨어의 표준 단위입니다.
+• OS 커널을 여러 개의 격리된 공간으로 격리(Isolation)하여 독립적인 여러 개의 시스템처럼 사용하는 가상화
+• 호스트 OS의 커널을 공유하며 OS를 새로 설치하지 않음
+• 커널을 공유하는 방식이기 때문에 실행 속도가 빠르고, 성능 상의 손실이 거의 없음
+• 사용자에게는 가상 머신처럼 보임
+• 다른 OS를 사용할 수 없음
+Docker 컨테이너 중에 잘 알려져 있는 컨테이너는 Docker 입니다.</description>
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://goliot.github.io/teamWebPage/container/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/container/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://goliot.github.io/teamWebPage/container/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/container/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://goliot.github.io/teamWebPage/container/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/container/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://goliot.github.io/teamWebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
+      <title>도커 사용법</title>
       <link>https://goliot.github.io/teamWebPage/container/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      <pubDate>Tue, 23 May 2023 13:50:46 +0200</pubDate>
       
       <guid>https://goliot.github.io/teamWebPage/container/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://goliot.github.io/teamWebPage/container/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/container/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <description>Docekr 다운로드 및 실행   도커 다운로드 사이트 접속 (URL : https://www.docker.com/products/docker-desktop)
+  자신의 OS에 맞는 다운로드 설정 선택 후 다운로드
+  Docker 실행
+  Docker Image 다운로드 방법   도커 허브에 접속 (URL : https://hub.docker.com)
+  필요한 도커 이미지 검색
+  검색 결과 중 원하는 이미지를 선택하고 태그를 선택 (태그는 이미지 파일의 버전과 같은 역할을 함)
+  도커 이미지를 PULL 하여 이미지 저장</description>
     </item>
     
   </channel>
