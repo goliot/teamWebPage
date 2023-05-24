@@ -14,6 +14,9 @@
     <loc>https://goliot.github.io/teamWebPage/git/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
+    <loc>https://goliot.github.io/teamWebPage/authors/chl/</loc>
+    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+  </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
@@ -59,7 +62,7 @@
     <loc>https://goliot.github.io/teamWebPage/web/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/web/categories-post/</loc>
+    <loc>https://goliot.github.io/teamWebPage/web/web/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/authors/jane-doe/</loc>
@@ -74,9 +77,6 @@
     <loc>https://goliot.github.io/teamWebPage/linux/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/web/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
@@ -89,9 +89,6 @@
     <loc>https://goliot.github.io/teamWebPage/linux/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/web/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
@@ -99,9 +96,6 @@
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/linux/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/web/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/container/creating-a-new-theme/</loc>
@@ -113,10 +107,10 @@
     <loc>https://goliot.github.io/teamWebPage/linux/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/web/creating-a-new-theme/</loc>
+    <loc>https://goliot.github.io/teamWebPage/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/categories/starting/</loc>
+    <loc>https://goliot.github.io/teamWebPage/web/web_browser/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/contact/</loc>
@@ -130,7 +124,5 @@
     <loc>https://goliot.github.io/teamWebPage/git/migrate-from-jekyll/</loc>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/linux/migrate-from-jekyll/</loc>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/web/migrate-from-jekyll/</loc>
   </url>
 </urlset>

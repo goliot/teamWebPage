@@ -38,16 +38,6 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
     </item>
     
     <item>
-      <title>Web 개요</title>
-      <link>https://goliot.github.io/teamWebPage/web/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/web/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  인터넷(Internet)  컴퓨터로 연결하여 TCP/IP(Transmission Control Protocol/Internet Protocol)라는통신 프로토콜을 이용해 정보를주고받는 컴퓨터 네트워크 네트워크와 네트워크를 연결해 주는 네트워크  월드 와이드 웹(World Wide Web, WWW, W3)  인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간(위키백과) • 인터넷에서 HTTP 프로토콜, 하이퍼텍스트, HTML형식 등을 사용하여 그림과 문자를 교환하는 전송방식• HTTP(HyperText Transfer Protocol) : 클라이언트와 서버 사이에 이루어지는 요청/응답(request/response) 프로토콜• 하이퍼텍스트(Hypertext) : 참조(하이퍼링크)를 통해 독자가 한 문서에서 다른 문서로 즉시 접근할 수 있는텍스트, 하이퍼링크를 따라 다른 문서로 이동, HTML 문서라고도 함 하이퍼 텍스트 마크업 언어(Hyper Text Markup Language, HTML) : 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공  </description>
-    </item>
-    
-    <item>
       <title>Migrate from Jekyll</title>
       <link>https://goliot.github.io/teamWebPage/container/migrate-from-jekyll/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -75,17 +65,6 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://goliot.github.io/teamWebPage/linux/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://goliot.github.io/teamWebPage/web/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/web/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
