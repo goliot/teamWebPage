@@ -8,63 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://goliot.github.io/teamWebPage/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Categories Post</title>
-      <link>https://goliot.github.io/teamWebPage/git/categories-post/</link>
+      <title>Github Post</title>
+      <link>https://goliot.github.io/teamWebPage/git/github-post/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://goliot.github.io/teamWebPage/git/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
+      <guid>https://goliot.github.io/teamWebPage/git/github-post/</guid>
+      <description>github란?  코드 저장소를 호스팅하고 관리하기 위한 웹 기반 플랫폼으로, 다양한 개발자들이 협업하고 소스 코드를 공유하는 데 사용된다. git을 기반으로 한 원격 저장소 호스팅 서비스 https://github.com 계정을 만들고 사용 무료, 유상 서비스 문서 : https://docs.github.com/ko 스킬 : https://skills.github.com/  보안 설정  “2FA”(투팩터 인증)을 설정  https://docs.github.com/ko/authentication/securing-your-account-with-two-factor-authentication-2fa/about-twofactor-authentication 보안 강화(권장됨)   ssh key 생성과 계정에 추가  github는 패스워드 입력을 이용한 저장소 사용이 금지됨, ssh key를 사용해야 함 https://docs.github.com/ko/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-addingit-to-the-ssh-agent https://docs.github.com/ko/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-githubaccount     github 주요 개념 Remote Repository  원격 저장소는 코드 및 프로젝트 파일을 저장하고 관리하는 공간입니다.</description>
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://goliot.github.io/teamWebPage/git/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/git/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://goliot.github.io/teamWebPage/git/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/git/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://goliot.github.io/teamWebPage/git/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/git/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://goliot.github.io/teamWebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://goliot.github.io/teamWebPage/git/creating-a-new-theme/</link>
+      <title>Git Post</title>
+      <link>https://goliot.github.io/teamWebPage/git/git-post/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://goliot.github.io/teamWebPage/git/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://goliot.github.io/teamWebPage/git/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/git/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://goliot.github.io/teamWebPage/git/git-post/</guid>
+      <description>소스 관리 소스 상태  관리 대상 여부  tracked(추적대상)  관리 대상     untracked(추적대상 아님)  관리 대상 아님   확인  git status    관리 대상 상태  committed : 버전관리에 안전하게 저장됨, snapshot staged : 커밋할 대상이라고 표시된 상태 modified : 파일이 수정되었지만 staged 되지 않음 tracked인 파일은 변경을 감지함 untracked인 파일은 변경을 감지하지 않음 untracked인 파일이 새로 생긴 것은 감지함  관리 대상으로 만들기  git add &amp;lt;file 또는 디렉토리&amp;gt;  untracked 파일을 tracked로 변경 동시에 staged로 변경 이미 tracked이고 modified인 경우 staged로 변경 디렉토리를 지정한 경우 하위의 모든 파일까지 변경    소스 관리에서 제외 하기  git add dir : dir과 하위 디렉토리에 있는 모든 파일들이 stage됨, .</description>
     </item>
     
   </channel>
