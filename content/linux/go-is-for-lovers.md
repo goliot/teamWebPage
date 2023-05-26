@@ -1,335 +1,224 @@
 +++
-title = "Go is for lovers"
-date = "2015-09-17T13:47:08+02:00"
-tags = ["go"]
-categories = ["programming"]
-banner = "img/banners/banner-2.jpg"
-facebook_author = "GolangSociety"
+title = "Linux Commands"
+date = "2023-05-23T13:47:08+02:00"
+banner = "img/banners/linux.png"
+author = "Jiwoong Heo"
+
 +++
 
-Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in go templates.
+# 리눅스 명령어 가이드
 
-This document is a brief primer on using go templates. The [go docs][gohtmltemplate]
-provide more details.
+## cd
+`cd` 명령어는 현재 작업 디렉토리를 변경하는데 사용됩니다.
 
-## Introduction to Go Templates
+### 옵션
+- `cd [디렉토리]`: 지정한 디렉토리로 이동합니다.
 
-Go templates provide an extremely simple template language. It adheres to the
-belief that only the most basic of logic belongs in the template or view layer.
-One consequence of this simplicity is that go templates parse very quickly.
+### 예시
+- `cd /home/user`: "/home/user" 디렉토리로 이동합니다.
+- `cd ..`: 상위 디렉토리로 이동합니다.
 
-A unique characteristic of go templates is they are content aware. Variables and
-content will be sanitized depending on the context of where they are used. More
-details can be found in the [go docs][gohtmltemplate].
+## ls
+`ls` 명령어는 디렉토리의 내용을 나열하는데 사용됩니다.
 
-## Basic Syntax
+### 옵션
+- `ls`: 현재 디렉토리의 내용을 나열합니다.
+- `ls [디렉토리]`: 지정한 디렉토리의 내용을 나열합니다.
+- `ls -l`: 자세한 내용과 함께 나열합니다.
 
-Go lang templates are html files with the addition of variables and
-functions.
+### 예시
+- `ls`: 현재 디렉토리의 파일과 폴더를 나열합니다.
+- `ls /home/user`: "/home/user" 디렉토리의 파일과 폴더를 나열합니다.
+- `ls -l`: 현재 디렉토리의 파일과 폴더를 자세히 나열합니다.
 
-**Go variables and functions are accessible within {{ }}**
+## mkdir
+`mkdir` 명령어는 새로운 디렉토리를 생성하는데 사용됩니다.
 
-Accessing a predefined variable "foo":
+### 옵션
+- `mkdir [디렉토리]`: 지정한 이름의 디렉토리를 생성합니다.
 
-    {{ foo }}
+### 예시
+- `mkdir mydir`: "mydir"이라는 이름의 디렉토리를 생성합니다.
 
-**Parameters are separated using spaces**
+## rmdir
+`rmdir` 명령어는 비어있는 디렉토리를 삭제하는데 사용됩니다.
 
-Calling the add function with input of 1, 2:
+### 옵션
+- `rmdir [디렉토리]`: 지정한 디렉토리를 삭제합니다.
 
-    {{ add 1 2 }}
+### 예시
+- `rmdir mydir`: "mydir"이라는 이름의 디렉토리를 삭제합니다.
 
-**Methods and fields are accessed via dot notation**
+## cp
+`cp` 명령어는 파일이나 디렉토리를 복사하는데 사용됩니다.
 
-Accessing the Page Parameter "bar"
+### 옵션
+- `cp [옵션] [소스] [대상]`: 소스에서 대상으로 파일 또는 디렉토리를 복사합니다.
 
-    {{ .Params.bar }}
+### 예시
+- `cp file.txt backup/`: "file.txt" 파일을 "backup/" 디렉토리로 복사합니다.
 
-**Parentheses can be used to group items together**
+## touch
+`touch` 명령어는 파일의 수정 시간을 변경하거나 빈 파일을 생성하는데 사용됩니다.
 
-    {{ if or (isset .Params "alt") (isset .Params "caption") }} Caption {{ end }}
+### 옵션
+- `touch [파일]`: 지정한 파일의 수정 시간을 변경하거나, 파일이 존재하지 않으면 빈 파일을 생성합니다.
 
+### 예시
+- `touch file.txt`: "file.txt" 파일의 수정 시간을 변경하거나, 파일이 없으면 새로 생성합니다.
 
-## Variables
+## mv
+`mv` 명령어는 파일이나 디렉토리를 이동하거나 이름을 변경하는데 사용됩니다.
 
-Each go template has a struct (object) made available to it. In hugo each
-template is passed either a page or a node struct depending on which type of
-page you are rendering. More details are available on the
-[variables](/layout/variables) page.
+### 옵션
+- `mv [소스] [대상]`: 소스 파일이나 디렉토리를 대상으로 이동하거나 이름을 변경합니다.
 
-A variable is accessed by referencing the variable name.
+### 예시
+- `mv file.txt documents/`: "file.txt" 파일을 "documents/" 디렉토리로 이동합니다.
+- `mv file.txt newfile.txt`: "file.txt" 파일의 이름을 "newfile.txt"로 변경합니다.
 
-    <title>{{ .Title }}</title>
+## rm
+`rm` 명령어는 파일이나 디렉토리를 삭제하는데 사용됩니다.
 
-Variables can also be defined and referenced.
+### 옵션
+- `rm [옵션] [파일/디렉토리]`: 파일이나 디렉토리를 삭제합니다.
 
-    {{ $address := "123 Main St."}}
-    {{ $address }}
+### 예시
+- `rm file.txt`: "file.txt" 파일을 삭제합니다.
+- `rm -r directory/`: "directory/" 디렉토리와 그 하위 파일 및 디렉토리를 삭제합니다.
 
+## find
+`find` 명령어는 파일 시스템에서 파일을 검색하는데 사용됩니다.
 
-## Functions
+### 옵션
+- `find [경로] [조건]`: 지정한 경로에서 조건에 맞는 파일을 검색합니다.
 
-Go template ship with a few functions which provide basic functionality. The go
-template system also provides a mechanism for applications to extend the
-available functions with their own. [Hugo template
-functions](/layout/functions) provide some additional functionality we believe
-are useful for building websites. Functions are called by using their name
-followed by the required parameters separated by spaces. Template
-functions cannot be added without recompiling hugo.
+### 예시
+- `find /home/user -name "*.txt"`: "/home/user" 디렉토리에서 확장자가 ".txt"인 파일을 검색합니다.
 
-**Example:**
+## which
+`which` 명령어는 지정한 명령어의 실행 가능한 경로를 찾는데 사용됩니다.
 
-    {{ add 1 2 }}
+### 옵션
+- `which [명령어]`: 지정한 명령어의 실행 가능한 경로를 출력합니다.
 
-## Includes
+### 예시
+- `which ls`: "ls" 명령어의 실행 가능한 경로를 출력합니다.
 
-When including another template you will pass to it the data it will be
-able to access. To pass along the current context please remember to
-include a trailing dot. The templates location will always be starting at
-the /layout/ directory within Hugo.
+## tree
+`tree` 명령어는 디렉토리 구조를 트리 형식으로 표시하는데 사용됩니다.
 
-**Example:**
+### 옵션
+- `tree [디렉토리]`: 지정한 디렉토리의 구조를 트리 형식으로 표시합니다.
 
-    {{ template "chrome/header.html" . }}
+### 예시
+- `tree /home/user`: "/home/user" 디렉토리의 구조를 트리 형식으로 표시합니다.
 
+## more
+`more` 명령어는 파일의 내용을 페이지 단위로 표시하는데 사용됩니다.
 
-## Logic
+### 옵션
+- `more [파일]`: 지정한 파일의 내용을 페이지 단위로 표시합니다.
 
-Go templates provide the most basic iteration and conditional logic.
+### 예시
+- `more file.txt`: "file.txt" 파일의 내용을 페이지 단위로 표시합니다.
 
-### Iteration
+## cat
+`cat` 명령어는 파일의 내용을 출력하거나 여러 파일을 결합하는데 사용됩니다.
 
-Just like in go, the go templates make heavy use of range to iterate over
-a map, array or slice. The following are different examples of how to use
-range.
+### 옵션
+- `cat [파일]`: 지정한 파일의 내용을 출력합니다.
 
-**Example 1: Using Context**
+### 예시
+- `cat file.txt`: "file.txt" 파일의 내용을 출력합니다.
 
-    {{ range array }}
-        {{ . }}
-    {{ end }}
+## head
+`head` 명령어는 파일의 앞부분을 출력하는데 사용됩니다.
 
-**Example 2: Declaring value variable name**
+### 옵션
+- `head [옵션] [파일]`: 지정한 파일의 앞부분을 출력합니다.
 
-    {{range $element := array}}
-        {{ $element }}
-    {{ end }}
+### 예시
+- `head -n 10 file.txt`: "file.txt" 파일의 첫 10줄을 출력합니다.
 
-**Example 2: Declaring key and value variable name**
+## tail
+`tail` 명령어는 파일의 뒷부분을 출력하는데 사용됩니다.
 
-    {{range $index, $element := array}}
-        {{ $index }}
-        {{ $element }}
-    {{ end }}
+### 옵션
+- `tail [옵션] [파일]`: 지정한 파일의 뒷부분을 출력합니다.
 
-### Conditionals
+### 예시
+- `tail -n 5 file.txt`: "file.txt" 파일의 마지막 5줄을 출력합니다.
 
-If, else, with, or, & and provide the framework for handling conditional
-logic in Go Templates. Like range, each statement is closed with `end`.
+## grep
+`grep` 명령어는 파일에서 특정 패턴과 일치하는 행을 검색하는데 사용됩니다.
 
+### 옵션
+- `grep [패턴] [파일]`: 지정한 파일에서 패턴과 일치하는 행을 검색합니다.
 
-Go Templates treat the following values as false:
+### 예시
+- `grep "keyword" file.txt`: "file.txt" 파일에서 "keyword" 패턴과 일치하는 행을 검색합니다.
 
-* false
-* 0
-* any array, slice, map, or string of length zero
+## uname
+`uname` 명령어는 시스템의 정보를 출력하는데 사용됩니다.
 
-**Example 1: If**
+### 옵션
+- `uname [옵션]`: 지정한 옵션에 따라 시스템 정보를 출력합니다.
 
-    {{ if isset .Params "title" }}<h4>{{ index .Params "title" }}</h4>{{ end }}
+### 예시
+- `uname -a`: 시스템의 모든 정보를 출력합니다.
 
-**Example 2: If -> Else**
+## ps
+`ps` 명령어는 현재 실행 중인 프로세스의 정보를 출력하는데 사용됩니다.
 
-    {{ if isset .Params "alt" }}
-        {{ index .Params "alt" }}
-    {{else}}
-        {{ index .Params "caption" }}
-    {{ end }}
+### 옵션
+- `ps [옵션]`: 지정한 옵션에 따라 프로세스 정보를 출력합니다.
 
-**Example 3: And & Or**
+### 예시
+- `ps aux`: 모든 사용자의 실행 중인 프로세스를 자세히 출력합니다.
 
-    {{ if and (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
+## apt update
+`apt update` 명령어는 패키지 관리자 데이터베이스를 업데이트하는데 사용됩니다.
 
-**Example 4: With**
+### 예시
+- `apt update`: 패키지 관리자 데이터베이스를 업데이트합니다.
 
-An alternative way of writing "if" and then referencing the same value
-is to use "with" instead. With rebinds the context `.` within its scope,
-and skips the block if the variable is absent.
+## apt upgrade
+`apt upgrade` 명령어는 시스템에 설치된 패키지를 최신 버전으로 업그레이드하는데 사용됩니다.
 
-The first example above could be simplified as:
+### 예시
+- `apt upgrade`: 시스템에 설치된 패키지를 최신 버전으로 업그레이드합니다.
 
-    {{ with .Params.title }}<h4>{{ . }}</h4>{{ end }}
+## wget
+`wget` 명령어는 인터넷 상의 파일을 다운로드하는데 사용됩니다.
 
-**Example 5: If -> Else If**
+### 옵션
+- `wget [URL]`: 지정한 URL의 파일을 다운로드합니다.
 
-    {{ if isset .Params "alt" }}
-        {{ index .Params "alt" }}
-    {{ else if isset .Params "caption" }}
-        {{ index .Params "caption" }}
-    {{ end }}
+### 예시
+- `wget https://example.com/file.txt`: "https://example.com/file.txt" 파일을 다운로드합니다.
 
-## Pipes
+## vi 편집기
+`vi` 편집기는 리눅스에서 텍스트 파일을 편집하는데 사용되는 터미널 기반 편집기입니다.
 
-One of the most powerful components of go templates is the ability to
-stack actions one after another. This is done by using pipes. Borrowed
-from unix pipes, the concept is simple, each pipeline's output becomes the
-input of the following pipe.
+### 예시
+- `vi file.txt`: "file.txt" 파일을 vi 편집기로 엽니다.
+- 편집 모드로 전환하려면 `i` 키를 누릅니다.
+- 편집이 끝나면 `Esc` 키를 누르고 `:wq`를 입력하여 저장하고 종료합니다.
 
-Because of the very simple syntax of go templates, the pipe is essential
-to being able to chain together function calls. One limitation of the
-pipes is that they only can work with a single value and that value
-becomes the last parameter of the next pipeline.
+## shell script
+쉘 스크립트는 리눅스에서 여러 명령어를 순차적으로 실행하는 스크립트입니다.
 
-A few simple examples should help convey how to use the pipe.
+### 예시
+```bash
+#!/bin/bash
 
-**Example 1 :**
+# 변수 정의
+name="John"
+age=25
 
-    {{ if eq 1 1 }} Same {{ end }}
+# 출력
+echo "My name is $name."
+echo "I am $age years old."
 
-is the same as
 
-    {{ eq 1 1 | if }} Same {{ end }}
-
-It does look odd to place the if at the end, but it does provide a good
-illustration of how to use the pipes.
-
-**Example 2 :**
-
-    {{ index .Params "disqus_url" | html }}
-
-Access the page parameter called "disqus_url" and escape the HTML.
-
-**Example 3 :**
-
-    {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
-    Stuff Here
-    {{ end }}
-
-Could be rewritten as
-
-    {{  isset .Params "caption" | or isset .Params "title" | or isset .Params "attr" | if }}
-    Stuff Here
-    {{ end }}
-
-
-## Context (aka. the dot)
-
-The most easily overlooked concept to understand about go templates is that {{ . }}
-always refers to the current context. In the top level of your template this
-will be the data set made available to it. Inside of a iteration it will have
-the value of the current item. When inside of a loop the context has changed. .
-will no longer refer to the data available to the entire page. If you need to
-access this from within the loop you will likely want to set it to a variable
-instead of depending on the context.
-
-**Example:**
-
-      {{ $title := .Site.Title }}
-      {{ range .Params.tags }}
-        <li> <a href="{{ $baseurl }}/tags/{{ . | urlize | lower  }}">{{ . }}</a> - {{ $title }} </li>
-      {{ end }}
-
-Notice how once we have entered the loop the value of {{ . }} has changed. We
-have defined a variable outside of the loop so we have access to it from within
-the loop.
-
-# Hugo Parameters
-
-Hugo provides the option of passing values to the template language
-through the site configuration (for sitewide values), or through the meta
-data of each specific piece of content. You can define any values of any
-type (supported by your front matter/config format) and use them however
-you want to inside of your templates.
-
-
-## Using Content (page) Parameters
-
-In each piece of content you can provide variables to be used by the
-templates. This happens in the [front matter](/content/front-matter).
-
-An example of this is used in this documentation site. Most of the pages
-benefit from having the table of contents provided. Sometimes the TOC just
-doesn't make a lot of sense. We've defined a variable in our front matter
-of some pages to turn off the TOC from being displayed.
-
-Here is the example front matter:
-
-```
----
-title: "Permalinks"
-date: "2013-11-18"
-aliases:
-  - "/doc/permalinks/"
-groups: ["extras"]
-groups_weight: 30
-notoc: true
----
-```
-
-Here is the corresponding code inside of the template:
-
-      {{ if not .Params.notoc }}
-        <div id="toc" class="well col-md-4 col-sm-6">
-        {{ .TableOfContents }}
-        </div>
-      {{ end }}
-
-
-
-## Using Site (config) Parameters
-In your top-level configuration file (eg, `config.yaml`) you can define site
-parameters, which are values which will be available to you in chrome.
-
-For instance, you might declare:
-
-```yaml
-params:
-  CopyrightHTML: "Copyright &#xA9; 2013 John Doe. All Rights Reserved."
-  TwitterUser: "spf13"
-  SidebarRecentLimit: 5
-```
-
-Within a footer layout, you might then declare a `<footer>` which is only
-provided if the `CopyrightHTML` parameter is provided, and if it is given,
-you would declare it to be HTML-safe, so that the HTML entity is not escaped
-again.  This would let you easily update just your top-level config file each
-January 1st, instead of hunting through your templates.
-
-```
-{{if .Site.Params.CopyrightHTML}}<footer>
-<div class="text-center">{{.Site.Params.CopyrightHTML | safeHtml}}</div>
-</footer>{{end}}
-```
-
-An alternative way of writing the "if" and then referencing the same value
-is to use "with" instead. With rebinds the context `.` within its scope,
-and skips the block if the variable is absent:
-
-```
-{{with .Site.Params.TwitterUser}}<span class="twitter">
-<a href="https://twitter.com/{{.}}" rel="author">
-<img src="/images/twitter.png" width="48" height="48" title="Twitter: {{.}}"
- alt="Twitter"></a>
-</span>{{end}}
-```
-
-Finally, if you want to pull "magic constants" out of your layouts, you can do
-so, such as in this example:
-
-```
-<nav class="recent">
-  <h1>Recent Posts</h1>
-  <ul>{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
-    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
-  {{end}}</ul>
-</nav>
-```
-
-
-[go]: <http://golang.org/>
-[gohtmltemplate]: <http://golang.org/pkg/html/template/>

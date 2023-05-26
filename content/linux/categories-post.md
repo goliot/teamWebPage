@@ -1,19 +1,54 @@
 +++
-title = "Linux Post"
-date = "2021-08-01T21:29:20+02:00"
+title = "리눅스 개요"
+date = "202-05-26T21:29:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
 categories = ["programming","lorem","pseudo"]
-banner = "img/banners/banner-4.jpg"
-authors = ["John Doe"]
+banner = "img/banners/linux.png"
+authors = ["Jiwoong Heo"]
 +++
 
-I'm a post with multiple categories in the frontmatter:
-
-    categories = ["programming","lorem","pseudo"]
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.
+    categories = ["programming","linux"]
 
-Morbi varius ex vel justo dictum placerat. Sed ac arcu pretium, varius elit eget, gravida purus. Fusce sit amet massa mollis eros tincidunt sollicitudin. Suspendisse iaculis cursus mauris ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas elit ligula, molestie quis magna eu, semper posuere lorem. Mauris a justo pharetra, congue ex eget, tincidunt massa. Maecenas sit amet neque lorem.
+# 리눅스 개념
+## 리눅스란?
+    - 오픈소스 운영체제로, 컴퓨터 시스템에서 소프트웨어와 하드웨어를 연결해 주는 소프트웨어 계층이다
+    - 리눅스는 1991년 리누스 토발즈(Linus Torvalds) 가 개발하였으며 그의 이름 리누스와 UNIX를 합쳐 만든것.
+    - 리눅스는 커널, 라이브러리, 유틸리티와 User Interface 로 구성되어 있다
+    - 커널(kernel) 은 운영체제의 핵심이며 하드웨어 자원을 관리하고 실행하게 함. 다음은 커널의 핵심 기능 4가지이다.
+        1. 메모리관리
+        2. 프로세스 관리
+        3. 장치 드라이버
+        4. 시스템 호출 및 보안
+    - 리눅스는 Multi-tasking, Multiuser, 단일형 커널이다
+    - 리눅스는 다중 사용자 환경을 지원하기 때문에 여러 사용자가 동시에 시스템에 접속하여 작업이 가능하다
+    - 또한 리눅스는 안정성과 보안성이 뛰어나 서버 운영체제로 널리 사용된다. 
+    - 리눅스는 다양한 배포판이 있는데, 일반적으로 Ubuntu, Fedora, Debian을 많이 사용한다
 
-Curabitur at elementum quam. Curabitur tristique elit non sapien aliquam vulputate. Vivamus in odio tincidunt, tempor sem quis, tincidunt lacus. Mauris pulvinar nunc sed tempus dictum. Nam vel arcu quis mi fermentum ullamcorper non ac lacus. Donec aliquet vitae ante at imperdiet. Aenean scelerisque venenatis urna, eget elementum risus convallis ac. Nullam gravida arcu lacus, non consectetur augue pretium non. Duis dignissim eros id urna pretium congue. Nullam eu magna in sem sollicitudin tempor. Pellentesque vel convallis ligula. Quisque semper, turpis a rhoncus efficitur, magna nibh iaculis elit, eget tempor dolor eros ut mi. Maecenas eu placerat lacus. Praesent congue pretium nulla, sed suscipit metus rutrum vel.
+    
+## Linux Shell, 사용자    
+    우선 OS Shell이란 운영체제 상에서 다양한 운영체제 기능과 서비스를 구현하는 인터페이스를 제공하는 프로그램이다. 일반적으로 두 종류로 분류되는데 다음과 같다.
+        1. CLI : Command Line Interface
+        2. GUI : Graphic User Interface
+    리눅스는 사용자 계정과 그에 따른 권한이 있다.
+    리눅스의 모든 사용자는 계정을 가지고 로그인해서 사용한다.
+    사용자 계정으로 로그인 하기 위해서는 비밀번호로 인증을 받아야 하며 숫자로 된 UID(User ID) 값을 가진다.
+    그 중에서도 모든 권한을 가지는 계정이 있는데 이를 root user 라 칭하며 UID: 0번이다.
+    사용자 계정에 대한 정보는 /etc/passwd 에서 관리가 되며, 사용자 계정에 대해 로그인을 허용할 수도, 금지 할 수도 있다. 
+    보안 문제로 인해 최근에는 root 계정은 로그인을 금지시키는 추세이다
+    리눅스에는 User Group 또한 존재하는데, 모든 사용자 계정은 하나 이상의 사용자 그룹에 속하게 되며, UID 와 마찬가지로 사용자 그룹은 숫자로된 GID(Group ID) 값을 가진다. 
+    Root user 와 마찬가지로 root group은 GID: 0번에 속한다.
+## 권한   
+
+    리눅스의 모든 자원은 파일로 관리되는데, 이 모든 파일에는 소유권이 정해져 있다.
+    파일은 각 각 읽기/쓰기/실행 권한이 있는데 읽기는 r, 쓰기는 w, 실행은 x로 표기된다.
+    이를 숫자로 바꾸면 읽기: 4, 쓰기:2, 실행: 1 의 권한을 가진다.
+    즉 모든 권한을 다 가지게 되면 7이다. 
+    이 권한에 대해 소유자, 소유자 그룹, 다른 사용자들에 대해 권한을 설정할 수 있는데, 모두에게 모든 권한이 있는 경우는 '777' 이런 식으로 권한이 결정된다.
+    앞서 말했듯이 보안문제로 root 계정의 로그인을 금지시키는 경우가 많다
+    그렇다면 root 권한이 필요한 경우는 어떻게 할까??
+        - sudo 명령어를 통해 실행한다
+        - sudo 명령어는 /etc/sudoers 라는 파일에 명시된 사용자 계정만 사용 가능하다.
+
+        
