@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Universal</title>
-    <link>https://goliot.github.io/teamWebPage/linux/</link>
-    <description>Recent content in Linux on Universal</description>
+    <title>Jiwoong Heo on Universal</title>
+    <link>https://goliot.github.io/teamWebPage/authors/jiwoong-heo/</link>
+    <description>Recent content in Jiwoong Heo on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 23 May 2023 13:47:08 +0200</lastBuildDate><atom:link href="https://goliot.github.io/teamWebPage/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Linux Commands</title>
-      <link>https://goliot.github.io/teamWebPage/linux/go-is-for-lovers/</link>
-      <pubDate>Tue, 23 May 2023 13:47:08 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/linux/go-is-for-lovers/</guid>
-      <description>리눅스 명령어 가이드 cd cd 명령어는 현재 작업 디렉토리를 변경하는데 사용됩니다.
-옵션  cd [디렉토리]: 지정한 디렉토리로 이동합니다.  예시  cd /home/user: &amp;ldquo;/home/user&amp;rdquo; 디렉토리로 이동합니다. cd ..: 상위 디렉토리로 이동합니다.  ls ls 명령어는 디렉토리의 내용을 나열하는데 사용됩니다.
-옵션  ls: 현재 디렉토리의 내용을 나열합니다. ls [디렉토리]: 지정한 디렉토리의 내용을 나열합니다. ls -l: 자세한 내용과 함께 나열합니다.  예시  ls: 현재 디렉토리의 파일과 폴더를 나열합니다. ls /home/user: &amp;ldquo;/home/user&amp;rdquo; 디렉토리의 파일과 폴더를 나열합니다.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://goliot.github.io/teamWebPage/authors/jiwoong-heo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>리눅스 개요</title>
       <link>https://goliot.github.io/teamWebPage/linux/categories-post/</link>

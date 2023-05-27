@@ -28,32 +28,11 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
     </item>
     
     <item>
-      <title>Linux Post</title>
-      <link>https://goliot.github.io/teamWebPage/linux/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/linux/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
       <title>Migrate from Jekyll</title>
       <link>https://goliot.github.io/teamWebPage/git/migrate-from-jekyll/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://goliot.github.io/teamWebPage/git/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://goliot.github.io/teamWebPage/linux/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/linux/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -68,6 +47,15 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>리눅스 개요</title>
+      <link>https://goliot.github.io/teamWebPage/linux/categories-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://goliot.github.io/teamWebPage/linux/categories-post/</guid>
+      <description>categories = [&amp;quot;programming&amp;quot;,&amp;quot;linux&amp;quot;,&amp;quot;OSS&amp;quot;]  리눅스 개념 리눅스란? - 오픈소스 운영체제로, 컴퓨터 시스템에서 소프트웨어와 하드웨어를 연결해 주는 소프트웨어 계층이다 - 리눅스는 1991년 리누스 토발즈(Linus Torvalds) 가 개발하였으며 그의 이름 리누스와 UNIX를 합쳐 만든것. - 리눅스는 커널, 라이브러리, 유틸리티와 User Interface 로 구성되어 있다 - 커널(kernel) 은 운영체제의 핵심이며 하드웨어 자원을 관리하고 실행하게 함. 다음은 커널의 핵심 기능 4가지이다. 1. 메모리관리 2. 프로세스 관리 3. 장치 드라이버 4. 시스템 호출 및 보안 - 리눅스는 Multi-tasking, Multiuser, 단일형 커널이다 - 리눅스는 다중 사용자 환경을 지원하기 때문에 여러 사용자가 동시에 시스템에 접속하여 작업이 가능하다 - 또한 리눅스는 안정성과 보안성이 뛰어나 서버 운영체제로 널리 사용된다.</description>
     </item>
     
   </channel>
