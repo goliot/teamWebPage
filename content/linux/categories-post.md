@@ -9,7 +9,7 @@ authors = ["Jiwoong Heo"]
 
 
 
-    categories = ["programming","linux"]
+    categories = ["programming","linux","OSS"]
 
 # 리눅스 개념
 ## 리눅스란?
