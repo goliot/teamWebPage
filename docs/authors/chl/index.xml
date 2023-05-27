@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web on Universal</title>
-    <link>https://goliot.github.io/teamWebPage/web/</link>
-    <description>Recent content in Web on Universal</description>
+    <title>ChL on Universal</title>
+    <link>https://goliot.github.io/teamWebPage/authors/chl/</link>
+    <description>Recent content in ChL on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://goliot.github.io/teamWebPage/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://goliot.github.io/teamWebPage/authors/chl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web 개요</title>
       <link>https://goliot.github.io/teamWebPage/web/web/</link>
