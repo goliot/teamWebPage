@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://goliot.github.io/teamWebPage/container/</loc>
+    <lastmod>2023-05-23T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://goliot.github.io/teamWebPage/tags/golang/</loc>
+    <lastmod>2023-05-23T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://goliot.github.io/teamWebPage/tags/hugo/</loc>
+    <lastmod>2023-05-23T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://goliot.github.io/teamWebPage/tags/programming/</loc>
+    <lastmod>2023-05-23T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://goliot.github.io/teamWebPage/tags/</loc>
+    <lastmod>2023-05-23T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://goliot.github.io/teamWebPage/tags/theme/</loc>
+    <lastmod>2023-05-23T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://goliot.github.io/teamWebPage/</loc>
+    <lastmod>2023-05-23T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://goliot.github.io/teamWebPage/container/categories-post/</loc>
+    <lastmod>2023-05-23T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://goliot.github.io/teamWebPage/container/creating-a-new-theme/</loc>
+    <lastmod>2023-05-23T13:50:46+02:00</lastmod>
+  </url><url>
     <loc>https://goliot.github.io/teamWebPage/authors/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/categories/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/container/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/git/categories-post/</loc>
@@ -17,16 +41,7 @@
     <loc>https://goliot.github.io/teamWebPage/web/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/container/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/git/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/tags/golang/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/tags/hugo/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/authors/john-doe/</loc>
@@ -41,31 +56,16 @@
     <loc>https://goliot.github.io/teamWebPage/categories/lorem/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/tags/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/categories/programming/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/categories/pseudo/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/tags/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/tags/theme/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/web/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/authors/jane-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/container/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/git/linked-post/</loc>
@@ -80,9 +80,6 @@
     <loc>https://goliot.github.io/teamWebPage/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/container/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/git/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
@@ -92,9 +89,6 @@
     <loc>https://goliot.github.io/teamWebPage/web/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://goliot.github.io/teamWebPage/container/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
     <loc>https://goliot.github.io/teamWebPage/git/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
@@ -103,9 +97,6 @@
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/web/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/container/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/git/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
@@ -124,8 +115,6 @@
     <loc>https://goliot.github.io/teamWebPage/faq/</loc>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/tags/ipsum/</loc>
-  </url><url>
-    <loc>https://goliot.github.io/teamWebPage/container/migrate-from-jekyll/</loc>
   </url><url>
     <loc>https://goliot.github.io/teamWebPage/git/migrate-from-jekyll/</loc>
   </url><url>
