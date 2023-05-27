@@ -49,101 +49,39 @@ Docker 컨테이너 중에 잘 알려져 있는 컨테이너는 Docker 입니다
     </item>
     
     <item>
-      <title>Categories Post</title>
-      <link>https://goliot.github.io/teamWebPage/git/categories-post/</link>
+      <title>Github Post</title>
+      <link>https://goliot.github.io/teamWebPage/git/github_post/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://goliot.github.io/teamWebPage/git/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
+      <guid>https://goliot.github.io/teamWebPage/git/github_post/</guid>
+      <description>github란?  코드 저장소를 호스팅하고 관리하기 위한 웹 기반 플랫폼으로, 다양한 개발자들이 협업하고 소스 코드를 공유하는 데 사용된다. git을 기반으로 한 원격 저장소 호스팅 서비스 https://github.com 계정을 만들고 사용 무료, 유상 서비스 문서 : https://docs.github.com/ko 스킬 : https://skills.github.com/  보안 설정  “2FA”(투팩터 인증)을 설정  https://docs.github.com/ko/authentication/securing-your-account-with-two-factor-authentication-2fa/about-twofactor-authentication 보안 강화(권장됨)   ssh key 생성과 계정에 추가  github는 패스워드 입력을 이용한 저장소 사용이 금지됨, ssh key를 사용해야 함 https://docs.github.com/ko/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-addingit-to-the-ssh-agent https://docs.github.com/ko/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-githubaccount     github 주요 개념 Remote Repository  원격 저장소는 코드 및 프로젝트 파일을 저장하고 관리하는 공간입니다.</description>
     </item>
     
     <item>
-      <title>Categories Post</title>
-      <link>https://goliot.github.io/teamWebPage/web/categories-post/</link>
+      <title>Web 개요</title>
+      <link>https://goliot.github.io/teamWebPage/web/web/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://goliot.github.io/teamWebPage/web/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
+      <guid>https://goliot.github.io/teamWebPage/web/web/</guid>
+      <description>Web 개요  인터넷(Internet)  컴퓨터로 연결하여 TCP/IP(Transmission Control Protocol/Internet Protocol)라는통신 프로토콜을 이용해 정보를주고받는 컴퓨터 네트워크 네트워크와 네트워크를 연결해 주는 네트워크  월드 와이드 웹(World Wide Web, WWW, W3)  인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간(위키백과) • 인터넷에서 HTTP 프로토콜, 하이퍼텍스트, HTML형식 등을 사용하여 그림과 문자를 교환하는 전송방식• HTTP(HyperText Transfer Protocol) : 클라이언트와 서버 사이에 이루어지는 요청/응답(request/response) 프로토콜• 하이퍼텍스트(Hypertext) : 참조(하이퍼링크)를 통해 독자가 한 문서에서 다른 문서로 즉시 접근할 수 있는텍스트, 하이퍼링크를 따라 다른 문서로 이동, HTML 문서라고도 함 하이퍼 텍스트 마크업 언어(Hyper Text Markup Language, HTML) : 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공  Web(WWW)  웹은 인터넷이라는 물리적 네트워크를 기반으로 함 인터넷 상에 TCP/IP라는 네트워크 전송 계층의 프로토콜을 사용 TCP/IP 네트워크 전송 계층위에 HTTP라는 네트워크 응용계층 프로토콜을 사용• HTTP 프로토콜을 이용해 HTML이라는 마크업 언어로 작성된 하이퍼 텍스트 데이터를 전송Web Server(정적) 하이퍼 텍스트 파일등의 웹 페이지 구성 파일들을 제공(Publish)하는 서버 프로그램• HTTP 서버라고도 하며 다양한 제품들이 있음 Apache, nginx  (Web) Application Server(WAS, AS)(동적)  서버에서 프로그램이 실행되고 그 결과로 HTML 파일을 생성하여 제공하는 서버 프로그램• 주로 Database에서 데이터를 조회하고, 결과를 HTML에 표현하는 기능을 많이 함• JAVA : Weblogic, Apache Tomcat C# : IIS PHP : PHP JavaScript : Node.</description>
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://goliot.github.io/teamWebPage/git/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/git/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Linked post</title>
-      <link>https://goliot.github.io/teamWebPage/web/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/web/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://goliot.github.io/teamWebPage/git/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/git/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://goliot.github.io/teamWebPage/web/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/web/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://goliot.github.io/teamWebPage/git/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/git/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://goliot.github.io/teamWebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://goliot.github.io/teamWebPage/web/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/web/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://goliot.github.io/teamWebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://goliot.github.io/teamWebPage/git/creating-a-new-theme/</link>
+      <title>Git Post</title>
+      <link>https://goliot.github.io/teamWebPage/git/git_post/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://goliot.github.io/teamWebPage/git/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://goliot.github.io/teamWebPage/git/git_post/</guid>
+      <description>소스 관리 소스 상태  관리 대상 여부  tracked(추적대상)  관리 대상     untracked(추적대상 아님)  관리 대상 아님   확인  git status    관리 대상 상태  committed : 버전관리에 안전하게 저장됨, snapshot staged : 커밋할 대상이라고 표시된 상태 modified : 파일이 수정되었지만 staged 되지 않음 tracked인 파일은 변경을 감지함 untracked인 파일은 변경을 감지하지 않음 untracked인 파일이 새로 생긴 것은 감지함  관리 대상으로 만들기  git add &amp;lt;file 또는 디렉토리&amp;gt;  untracked 파일을 tracked로 변경 동시에 staged로 변경 이미 tracked이고 modified인 경우 staged로 변경 디렉토리를 지정한 경우 하위의 모든 파일까지 변경    소스 관리에서 제외 하기  git add dir : dir과 하위 디렉토리에 있는 모든 파일들이 stage됨, .</description>
     </item>
     
     <item>
-      <title>Creating a new theme</title>
-      <link>https://goliot.github.io/teamWebPage/web/creating-a-new-theme/</link>
+      <title>Web Browser</title>
+      <link>https://goliot.github.io/teamWebPage/web/web_browser/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://goliot.github.io/teamWebPage/web/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://goliot.github.io/teamWebPage/web/web_browser/</guid>
+      <description>Web Browser  웹 브라우저  하이퍼 텍스트 문서(HTML 문서)를 렌더링하여 GUI로 보여주는 웹 클라이언트 프로그램• 주요기능 웹서버에게 주어진 URL의 웹페이지(하이퍼 텍스트)를 요청 웹페이지를 다운로드 받아서 그래픽으로 렌더링 자바스크립트(ECMAScript 표준 준수) 인터프리터로 자바스크립트 실행 멀티 미디어 표시 : 이미지, 음악, 동영상  </description>
     </item>
     
     <item>
@@ -164,28 +102,6 @@ Please feel free to contact us, our customer service center is working for you 2
       <guid>https://goliot.github.io/teamWebPage/faq/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://goliot.github.io/teamWebPage/git/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/git/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://goliot.github.io/teamWebPage/web/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://goliot.github.io/teamWebPage/web/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
